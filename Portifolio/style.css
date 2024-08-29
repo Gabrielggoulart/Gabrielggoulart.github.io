@@ -107,26 +107,59 @@ a:hover{
     cursor: pointer;
   }
 
-.sobremim{
+.portifolio{
     display: flex;
     flex-direction: column;
     margin: 50px;
     gap: 20px;
 }
 
-.sobremim-titulo{
+.portifolio-titulo{
     color: #fff;
 
 }
 
-.sobremim-texto{
-    text-indent: 4em;
+.portifolio-texto{
+    display: flex;
+    justify-content:space-between ;
     color: #fff;
     text-align: justify;
+    gap: 30px;
+}
+
+.trabalho a{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.10);;
+}
+
+.trabalho a:hover{
+    background-color: rgba(1, 1, 1, 0.70);
+    color: #fff;
+}
+
+#trabalho-primeiro{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    text-align: center;
+    background-image: url(../assets/Sem\ título.png);
+    background-position: 55% 30%;
 }
 
 footer{
     background-color: #3f3f3f;
+    width: 100%;
 }
 
 .rodape{

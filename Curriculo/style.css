@@ -107,26 +107,30 @@ a:hover{
     cursor: pointer;
   }
 
-.sobremim{
+.curriculo{
     display: flex;
     flex-direction: column;
     margin: 50px;
     gap: 20px;
 }
 
-.sobremim-titulo{
+.curriculo-titulo{
     color: #fff;
 
 }
 
-.sobremim-texto{
-    text-indent: 4em;
+.curriculo-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     color: #fff;
     text-align: justify;
+    gap: 30px;
 }
 
 footer{
     background-color: #3f3f3f;
+    width: 100%;
 }
 
 .rodape{
